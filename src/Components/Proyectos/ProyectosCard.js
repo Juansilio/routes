@@ -6,7 +6,7 @@ const ProyectosCard = ({props}) => {
             <img src="https://picsum.photos/200"
             className='card-img-top' alt="..."/>
             <div className="card-body">
-                <h5 className='="card-tittle'>{props.titulo}</h5>
+                <h5 className='card-tittle'>{props.titulo}</h5>
                 <p className="card-text"> {props.texto}</p>
                 <a href={props.url} className="btn-primary"> Visitar proyecto</a>
             </div>
