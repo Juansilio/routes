@@ -1,14 +1,15 @@
-import { HashRouter, Route, Router, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import Inicio from "./Components/Inicio";
+import Nav from "./Components/Nav";
 
 function App() {
   return (
-    <Router>
+    <>
     <Nav />
     <Routes>
-      <Route path="/" element={Inicio} />
+      <Route path="/" element={<Inicio/>} />
       </Routes>
-    </Router>
+    </>
     
   )
 };
